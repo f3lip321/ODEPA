@@ -5,7 +5,7 @@
 ## Configuración del Aplicativo 👇
 
 
-*Esta herramienta digital forma parte del catálogo de herramientas del **Banco Interamericano de Desarrollo**. Puedes conocer más sobre la iniciativa del BID en [code.iadb.org](https://code.iadb.org)*
+*Lo primero es dirigirse a la rama BD --> donde se debe descargar el SCRIPR de la BD con los insert de la tabla Región. Se deben ejecutar en un motor de BD Mysql para el correcto funcionamiento del mantenedor*
 
 <h1 align="center"> Nombre de la herramienta</h1>
 <p align="center"> Logo e imagen o gif de la interfaz principal de la herramienta</p>
