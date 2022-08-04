@@ -30,6 +30,7 @@ Con la capa Back End en ejecución y cargada nuestra capa Front End(Rama Front) 
 
 
 # Pendiente por realizar:
+
 -Grabar --> Al utilizar dos tablas se me hizo complicado grabar la llave foranea de la Región, se creo como tabla Región para cargar los datos en la lista desplegable.
 -Editar --> Lo mismo comentado arriba.
 -Test Unitarios por capas.
