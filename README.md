@@ -28,3 +28,12 @@ Con la capa Back End en ejecución y cargada nuestra capa Front End(Rama Front) 
      - Identificar el puerto y la ip que se muestra por consola, para copiar este en un navegador de preferencia como Chrome.
      - Realizado todo esto, ya es posible visualizar la vista de la aplicación y comenzar a ejecutar esta misma.
 
+
+# Pendiente por realizar:
+-Grabar --> Al utilizar dos tablas se me hizo complicado grabar la llave foranea de la Región. Se creo como tabla Región para cargar los datos en la lista desplegable.
+-Editar --> Lo mismo comentado arriba.
+-Test Unitarios por capas.
+-Mensajes al Agregar, Editar y Eliminar.
+-Validar campos obligatorios.
+
+Lo reconfortante fue haber aprendido durante el desarrollo de este desafio. Siendo mi mayor experiencia con Angular, la cual como habia comentado con anterioridad manejaba muy poco. 
