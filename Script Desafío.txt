@@ -1,0 +1,55 @@
+--
+-- Base de datos: `mantenedor`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `region`
+--
+
+DROP TABLE IF EXISTS `region`;
+CREATE TABLE IF NOT EXISTS `region` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `region`
+--
+
+INSERT INTO `region` (`id`, `name`) VALUES
+(1, 'Santiago'),
+(2, 'Valparaiso'),
+(3, 'Antofagasta'),
+(4, 'Coquimbo'),
+(5, 'Tarapaca'),
+(6, 'Maule');
+COMMIT;
+
+
+
+--
+-- Estructura de tabla para la tabla `formulario`
+--
+
+DROP TABLE IF EXISTS `formulario`;
+CREATE TABLE IF NOT EXISTS `formulario` (
+  `email` varchar(255) NOT NULL,
+  `comentario` varchar(255) DEFAULT NULL,
+  `region` int(11) NOT NULL,
+  PRIMARY KEY (`email`),
+  KEY `FKnj6uk12kjnv8k4fohexis5gn5` (`region`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `formulario`
+--
+ALTER TABLE `formulario`
+  ADD CONSTRAINT `FKnj6uk12kjnv8k4fohexis5gn5` FOREIGN KEY (`region`) REFERENCES `region` (`id`);
+COMMIT;
