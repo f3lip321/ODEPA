@@ -30,10 +30,10 @@ Con la capa Back End en ejecución y cargada nuestra capa Front End(Rama Front) 
 
 
 # Pendiente por realizar:
--Grabar --> Al utilizar dos tablas se me hizo complicado grabar la llave foranea de la Región. Se creo como tabla Región para cargar los datos en la lista desplegable.
+-Grabar --> Al utilizar dos tablas se me hizo complicado grabar la llave foranea de la Región, se creo como tabla Región para cargar los datos en la lista desplegable.
 -Editar --> Lo mismo comentado arriba.
 -Test Unitarios por capas.
 -Mensajes al Agregar, Editar y Eliminar.
 -Validar campos obligatorios.
 
-Lo reconfortante fue haber aprendido durante el desarrollo de este desafio. Siendo mi mayor experiencia con Angular, la cual como habia comentado con anterioridad manejaba muy poco. 
+Lo reconfortante fue haber aprendido durante el desarrollo de este desafio. Siendo mi mayor experiencia con Angular, la cual como habia comentado con anterioridad manejaba muy poco. Por otro lado la falta de tiempo y la alta carga de trabajo que me toco estos días hizo que no pudiera completar el desafio. 
