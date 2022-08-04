@@ -37,4 +37,4 @@ Con la capa Back End en ejecución y cargada nuestra capa Front End(Rama Front) 
 -Mensajes al Agregar, Editar y Eliminar.
 -Validar campos obligatorios.
 
-Lo reconfortante fue haber aprendido durante el desarrollo de este desafio. Siendo mi mayor experiencia con Angular, la cual como habia comentado con anterioridad manejaba muy poco. Por otro lado la falta de tiempo y la alta carga de trabajo que me toco estos días hizo que no pudiera completar el desafio. 
+Lo reconfortante fue haber aprendido durante el desarrollo de este desafio. Siendo mi mayor experiencia con Angular, la cual como habia comentado con anterioridad manejaba muy poco. Por otro lado la falta de tiempo y la alta carga de trabajo que me toco estos días hizo que no pudiera completar el desafio y no demostrar que tal vez si podria haberlo completado. 
