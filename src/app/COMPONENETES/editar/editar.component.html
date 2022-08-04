@@ -1,0 +1,43 @@
+<div class="container">
+    <p>Editar Formulario</p>
+    <div class="row">
+        <div class="col-sm-6">
+            <form>
+                <div class="mb3">
+                    <label class="form-label">Email</label>
+                    <input [(ngModel)]="formulario.email" type="email" class="form-control" name="email" required>
+                </div>
+    
+                
+                <label class="form-label">Región</label>
+                <select name="region" id="region" class="form-select" ngModel>
+                    <option *ngFor="let region of ListarRegion" [value]="region.id">{{region.name}}</option>
+                </select>
+
+
+                <div class="mb3">
+                    <label class="form-label">Comentario</label>
+                    <input [(ngModel)]="formulario.comentario" type="text" class="form-control" name="comentario">
+                </div>
+                
+                <button (click)="modificar()" class="btn btn-primary">Guardar</button>
+            </form>                    
+        </div>
+    
+        <div class="col-sm-6">
+            <form>
+                <div class="mb3">
+                    <label class="form-label">{{formulario.email}}</label>                    
+                </div>
+
+                <div class="mb3">
+                    <label class="form-label">{{formulario.region.name}}</label>                    
+                </div>
+
+                <div class="mb3">
+                    <label class="form-label">{{formulario.comentario}}</label>                    
+                </div>                
+            </form>
+        </div>
+    </div>
+</div>
